@@ -11,7 +11,7 @@
  - **React 16.2.0**
  - **Redux 3.7.2**
  - **react-redux 5.0.6**, to bind React and Redux.
- - **react-router v4 **
+ - **react-router v4**
  - **JSX**
  - **ES6**, support [`stage-1`](http://babeljs.io/docs/plugins/preset-stage-1/) and decorators by default.
  - **webpack 3.x**
