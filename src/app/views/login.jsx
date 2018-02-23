@@ -24,15 +24,12 @@ class Login extends React.Component {
     )
   }
 }
-// const mapStateToProps = state => ({
-//   login: state.auth.logined
-// })
 
 const mapDispatchToProps = dispatch => ({
   logined: bindActionCreators(logined, dispatch)
 })
 
-export default connect( // 超级坑的 connect(mapStateToProps, mapDispatchToProps) 参数顺序不能反，如果只需要mapdispatch 前面需要加null
+export default connect(
   null,
   mapDispatchToProps
 )(Login)
